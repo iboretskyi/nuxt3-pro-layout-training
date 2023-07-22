@@ -11,9 +11,9 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://example.com',
-      siteName: 'Awesome Site',
-      siteDescription: 'Welcome to my awesome site!',
-      titleSeparator: '|',
+      // siteName: '',
+      // siteDescription: '',
+      // titleSeparator: '|',
       language: 'en', // prefer more explicit language codes like `en-GB` over `en`
       trailingSlash: false, // forces trailing slashes on server side routes and sitemap
       linkChecker: {
