@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <main>
+  <div class="container pt-[30px]">
     <slot />
-  </main>
+  </div>
 </template>
 
 <style lang="scss" scoped>
