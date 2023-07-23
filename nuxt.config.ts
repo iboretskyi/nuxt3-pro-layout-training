@@ -1,4 +1,3 @@
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: true,
@@ -31,7 +30,6 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-gtag',
     'nuxt-headlessui',
-    'unplugin-icons/nuxt',
   ],
   tailwindcss: {
     cssPath: '~/assets/scss/tailwind.css',
